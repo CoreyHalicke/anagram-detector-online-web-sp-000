@@ -7,9 +7,13 @@ class Anagram
   end
 
   counter = 0
+  matches = []
   def match(array)
     array.each do |word|
-      self.word.split("").sort = word.split("").sort
+      if self.word.split("").sort = word.split("").sort
+        matches << word
+      end
+
       counter += 1
     end
   end
