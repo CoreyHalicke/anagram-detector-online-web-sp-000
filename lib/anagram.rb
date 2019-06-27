@@ -13,6 +13,6 @@ class Anagram
         matches << word
       end
     end
-    matches
+    puts matches
   end
 end
