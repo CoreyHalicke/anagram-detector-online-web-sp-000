@@ -10,10 +10,8 @@ class Anagram
   matches = []
   def match(array)
     array.each do |word|
-      if self.word.split("").sort == word.split("").sort
-        matches << array[counter]
-      end
-      counter += 1
+      #self.word.split("").sort
+      puts word.split("").sort
     end
   end
 end
