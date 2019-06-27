@@ -12,6 +12,7 @@ class Anagram
       if self.word.split("").sort == word.split("").sort
         print word
       end
+      print word
     end
     @matches
   end
