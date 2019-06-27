@@ -13,7 +13,6 @@ class Anagram
       if self.word.split("").sort = word.split("").sort
         matches << word
       end
-
       counter += 1
     end
   end
