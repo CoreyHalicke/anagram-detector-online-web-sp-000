@@ -11,7 +11,7 @@ class Anagram
   def match(array)
     array.each do |word|
       if self.word.split("").sort == word.split("").sort
-        matches << array[counter]
+        matches << word
       end
       counter += 1
     end
