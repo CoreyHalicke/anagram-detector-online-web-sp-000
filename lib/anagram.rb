@@ -13,5 +13,6 @@ class Anagram
         print word
       end
     end
+    matches
   end
 end
