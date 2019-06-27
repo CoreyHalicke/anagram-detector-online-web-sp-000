@@ -11,9 +11,9 @@ class Anagram
   def match(array)
     array.each do |word|
       if self.word.split("").sort == word.split("").sort
-        matches << array[counter]
+        @@matches << array[@@counter]
       end
-      counter += 1
+      @@counter += 1
     end
   end
 end
